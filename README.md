@@ -22,7 +22,7 @@ Chega de ficar procurando "aquele momento do vídeo" toda vez que esquece uma ba
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/ecoa.git
+git clone https://github.com/00MOREIRA00/ecoa.git
 cd ecoa
 ```
 
@@ -70,7 +70,7 @@ Se aparecer a versão, está tudo certo.
 ## ▶️ Como usar
 
 ```bash
-python ecoa.py <URL> <inicio> <fim> [--nome "nome_da_batida"]
+python main.py <URL> <inicio> <fim> [--nome "nome_da_batida"]
 ```
 
 **Parâmetros:**
@@ -86,7 +86,7 @@ python ecoa.py <URL> <inicio> <fim> [--nome "nome_da_batida"]
 **Exemplo:**
 
 ```bash
-python ecoa.py "https://www.youtube.com/watch?v=XXXXX" 1:15 1:45 --nome "ijexa_intro"
+python main.py "https://www.youtube.com/watch?v=XXXXX" 1:15 1:45 --nome "ijexa_intro"
 ```
 
 Isso vai gerar `clips_atabaque/ijexa_intro.mp3` com somente o trecho entre 1:15 e 1:45.
@@ -109,7 +109,7 @@ Este projeto foi criado para **uso pessoal e estudo**, como apoio à prática in
 
 ## 📝 Licença
 
-Escolha a licença que preferir (ex: MIT) e adicione um arquivo `LICENSE` ao repositório.
+Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE).
 
 ---
 

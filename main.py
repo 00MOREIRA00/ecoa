@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-atabaque_clip.py
+main.py
 
 Baixa apenas um trecho (em áudio) de um vídeo do YouTube, para você guardar
 batidas de atabaque e escutar depois sem precisar abrir o vídeo de novo.
@@ -13,12 +13,12 @@ Requisitos (instalar uma vez):
         - Linux:   sudo apt install ffmpeg
 
 Uso:
-    python atabaque_clip.py <URL> <inicio> <fim> [--nome "nome_da_batida"]
+    python main.py <URL> <inicio> <fim> [--nome "nome_da_batida"]
 
 Exemplos de tempo aceitos: 1:23, 01:23, 1:02:15, 83 (segundos)
 
 Exemplo:
-    python atabaque_clip.py "https://www.youtube.com/watch?v=XXXXXXXX" 1:15 1:45 --nome "ijexa_intro"
+    python main.py "https://www.youtube.com/watch?v=XXXXXXXX" 1:15 1:45 --nome "ijexa_intro"
 """
 
 import argparse
